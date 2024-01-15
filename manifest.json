@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie manipulator",
+  "version": "1.0", 
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "./popup/popup.html",
+    "default_icon": "./images/cookie_512.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "./images/cookie_512.png",
+    "32": "./images/cookie_512.png",
+    "48": "./images/cookie_512.png",
+    "128": "./images/cookie_512.png"
+  }
+}

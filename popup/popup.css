@@ -1,0 +1,29 @@
+body {
+    background-color: grey;
+    width: 150px;
+    height: max-content;
+}
+
+button {
+    font-family: monospace;
+    font-weight: 500;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+#cookies {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+    height: max-content;
+    word-wrap: break-word;
+}
