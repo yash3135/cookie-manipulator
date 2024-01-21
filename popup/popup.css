@@ -1,6 +1,6 @@
 body {
     background-color: grey;
-    width: 150px;
+    width: 200px;
     height: max-content;
 }
 
@@ -26,4 +26,25 @@ button {
     margin: 10px 0px;
     height: max-content;
     word-wrap: break-word;
+    display: none;
 }
+
+.inputCookie {
+    height: 180px;
+    width: 95%;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+    word-wrap: break-word;
+    resize: none;
+    display: none;
+}
+
+#setCookiesinner {
+    display: none;
+}
+
